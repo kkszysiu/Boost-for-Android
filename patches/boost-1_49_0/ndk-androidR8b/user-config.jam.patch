@@ -1,10 +1,9 @@
---- boost_1_45_0-old/tools/build/v2/user-config.jam	2008-07-15 16:53:41.000000000 +0300
-+++ boost_1_45_0/tools/build/v2/user-config.jam	2011-06-08 17:38:13.677497695 +0300
-@@ -84,3 +84,50 @@
+--- boost_1_45_0-old/tools/build/v2/user-config.jam	2012-06-18 02:00:37.000000000 +0200
++++ boost_1_45_0/tools/build/v2/user-config.jam	2012-06-18 02:05:15.000000000 +0200
+@@ -74,6 +74,53 @@
+ # using stlport : : /usr/include/stlport /usr/lib ;
  
- # Configure with an explicit installation prefix.
- # using qt : /usr/opt/qt ;
-+
+ 
 +# ----------------------
 +# Android configuration.
 +# ----------------------
@@ -51,3 +50,7 @@
 +<cxxflags>-D_REENTRANT
 +<cxxflags>-D_GLIBCXX__PTHREADS
 +;
++
+ # -----------------
+ # QT configuration.
+ # -----------------
